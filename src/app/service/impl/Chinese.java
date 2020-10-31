@@ -41,6 +41,7 @@ public class Chinese implements Person {
         this.books = books;
     }
 
+
     public void setAxe(Axe axe) {
         this.axe = axe;
     }
