@@ -13,6 +13,7 @@ public class Chinese implements Person {
     private Set axes;
     private String[] books;
     private Axe axe;
+
     public Chinese() {
         System.out.println("Spring实例化主调bean: Chinese实例...");
     }
@@ -40,6 +41,7 @@ public class Chinese implements Person {
     public void setBooks(String[] books) {
         this.books = books;
     }
+
 
 
     public void setAxe(Axe axe) {
