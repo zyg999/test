@@ -5,7 +5,6 @@ import app.service.Axe;
 public class StoneAxe implements Axe {
     private int price;
     private String name;
-
     public StoneAxe(int price, String name) {
         this.price = price;
         this.name = name;

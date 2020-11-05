@@ -13,6 +13,11 @@
         <fileset id="fileset3" name="Spring Application Context (3)" removed="false">
           <file>file://$MODULE_DIR$/src/beans6.xml</file>
         </fileset>
+        <fileset id="fileset4" name="Spring Application Context (4)" removed="false">
+          <file>file://$MODULE_DIR$/src/beans7.xml</file>
+          <file>file://$MODULE_DIR$/src/beans4.xml</file>
+          <file>file://$MODULE_DIR$/src/beans5.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
@@ -236,6 +241,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../mchange-commons-java-0.2.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../JAR/javax.annotation-api-1.3.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
